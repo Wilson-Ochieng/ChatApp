@@ -123,9 +123,7 @@ fun MessageCard(msg: Message) {
 }
 //All composable functions starts with @Composable
 @Composable
-//LazyColumn is used to fetch and display data or an array data in a list
-//Make sure the sample Data is stored somewhere in your android project for faster development
-//Once you finish the code,run it in your Android phone and emulator to see this >
+
 fun Conversation(messages: List<Message>) {
     //Here messages is an instance of Message in the MessageCard function above
     LazyColumn {
